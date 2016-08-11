@@ -1,0 +1,5 @@
+target 'LastObjectByTarena' do
+pod 'Masonry'
+pod 'BlocksKit'
+
+end  

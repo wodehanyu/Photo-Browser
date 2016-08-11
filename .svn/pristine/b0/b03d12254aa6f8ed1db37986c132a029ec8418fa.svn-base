@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1670db55-1c2d-4d41-a0b6-3c50fa75b8d4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "1670db55-1c2d-4d41-a0b6-3c50fa75b8d4" : {
+
+    },
+    "a621b1ba-8ad3-46f3-8e15-d9e4b47c0753" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1670db55-1c2d-4d41-a0b6-3c50fa75b8d4" : 0,
+    "a621b1ba-8ad3-46f3-8e15-d9e4b47c0753" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D703AF48-C9D8-4D70-878C-6A50E7A03850",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1670db55-1c2d-4d41-a0b6-3c50fa75b8d4" : "last_objectby\/",
+    "a621b1ba-8ad3-46f3-8e15-d9e4b47c0753" : "last_object\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LastObjectByTarena",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LastObjectByTarena\/LastObjectByTarena.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/last_objectby",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1670db55-1c2d-4d41-a0b6-3c50fa75b8d4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/last_object",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a621b1ba-8ad3-46f3-8e15-d9e4b47c0753"
+    }
+  ]
+}

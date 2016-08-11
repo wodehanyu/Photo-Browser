@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F309E10F7DD105A4CCA27C3 /* libPods-LastObjectByTarena.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8965C52227A9BA02AEE41F /* libPods-LastObjectByTarena.a */; };
+		D93857301D5090B60092F8A0 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D938572F1D5090B60092F8A0 /* ViewModel.m */; };
+		D9AA9CEA1D506CDC00A9AEC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA9CE91D506CDC00A9AEC6 /* main.m */; };
+		D9AA9CED1D506CDC00A9AEC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA9CEC1D506CDC00A9AEC6 /* AppDelegate.m */; };
+		D9AA9CF01D506CDC00A9AEC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA9CEF1D506CDC00A9AEC6 /* ViewController.m */; };
+		D9AA9CF31D506CDC00A9AEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AA9CF11D506CDC00A9AEC6 /* Main.storyboard */; };
+		D9AA9CF51D506CDC00A9AEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AA9CF41D506CDC00A9AEC6 /* Assets.xcassets */; };
+		D9AA9CF81D506CDC00A9AEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AA9CF61D506CDC00A9AEC6 /* LaunchScreen.storyboard */; };
+		D9AA9D031D506CDC00A9AEC6 /* LastObjectByTarenaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA9D021D506CDC00A9AEC6 /* LastObjectByTarenaTests.m */; };
+		D9AA9D0E1D506CDC00A9AEC6 /* LastObjectByTarenaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA9D0D1D506CDC00A9AEC6 /* LastObjectByTarenaUITests.m */; };
+		D9AA9D2A1D5072A900A9AEC6 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA9D291D5072A900A9AEC6 /* ScrollViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9AA9CFF1D506CDC00A9AEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9AA9CDD1D506CDC00A9AEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AA9CE41D506CDC00A9AEC6;
+			remoteInfo = LastObjectByTarena;
+		};
+		D9AA9D0A1D506CDC00A9AEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9AA9CDD1D506CDC00A9AEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AA9CE41D506CDC00A9AEC6;
+			remoteInfo = LastObjectByTarena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E8965C52227A9BA02AEE41F /* libPods-LastObjectByTarena.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LastObjectByTarena.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D938572C1D5086250092F8A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D938572E1D5090B60092F8A0 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		D938572F1D5090B60092F8A0 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		D9AA9CE51D506CDC00A9AEC6 /* LastObjectByTarena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastObjectByTarena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AA9CE91D506CDC00A9AEC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9AA9CEB1D506CDC00A9AEC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9AA9CEC1D506CDC00A9AEC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9AA9CEE1D506CDC00A9AEC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9AA9CEF1D506CDC00A9AEC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9AA9CF21D506CDC00A9AEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9AA9CF41D506CDC00A9AEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9AA9CF71D506CDC00A9AEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9AA9CF91D506CDC00A9AEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AA9CFE1D506CDC00A9AEC6 /* LastObjectByTarenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastObjectByTarenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AA9D021D506CDC00A9AEC6 /* LastObjectByTarenaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastObjectByTarenaTests.m; sourceTree = "<group>"; };
+		D9AA9D041D506CDC00A9AEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AA9D091D506CDC00A9AEC6 /* LastObjectByTarenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastObjectByTarenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AA9D0D1D506CDC00A9AEC6 /* LastObjectByTarenaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastObjectByTarenaUITests.m; sourceTree = "<group>"; };
+		D9AA9D0F1D506CDC00A9AEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AA9D281D5072A900A9AEC6 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		D9AA9D291D5072A900A9AEC6 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		ECA46BCAFA564736AD4A0128 /* Pods-LastObjectByTarena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastObjectByTarena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LastObjectByTarena/Pods-LastObjectByTarena.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2AB8A951DEA019C17B4868 /* Pods-LastObjectByTarena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastObjectByTarena.release.xcconfig"; path = "Pods/Target Support Files/Pods-LastObjectByTarena/Pods-LastObjectByTarena.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9AA9CE21D506CDC00A9AEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F309E10F7DD105A4CCA27C3 /* libPods-LastObjectByTarena.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AA9CFB1D506CDC00A9AEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AA9D061D506CDC00A9AEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFB076A502B10F2311F884F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECA46BCAFA564736AD4A0128 /* Pods-LastObjectByTarena.debug.xcconfig */,
+				FF2AB8A951DEA019C17B4868 /* Pods-LastObjectByTarena.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D40D6FF0B7677D8E140F8960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E8965C52227A9BA02AEE41F /* libPods-LastObjectByTarena.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D938572D1D50907F0092F8A0 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D938572E1D5090B60092F8A0 /* ViewModel.h */,
+				D938572F1D5090B60092F8A0 /* ViewModel.m */,
+			);
+			name = viewModel;
+			sourceTree = "<group>";
+		};
+		D9AA9CDC1D506CDC00A9AEC6 = {
+			isa = PBXGroup;
+			children = (
+				D9AA9CE71D506CDC00A9AEC6 /* LastObjectByTarena */,
+				D9AA9D011D506CDC00A9AEC6 /* LastObjectByTarenaTests */,
+				D9AA9D0C1D506CDC00A9AEC6 /* LastObjectByTarenaUITests */,
+				D9AA9CE61D506CDC00A9AEC6 /* Products */,
+				CAFB076A502B10F2311F884F /* Pods */,
+				D40D6FF0B7677D8E140F8960 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9AA9CE61D506CDC00A9AEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA9CE51D506CDC00A9AEC6 /* LastObjectByTarena.app */,
+				D9AA9CFE1D506CDC00A9AEC6 /* LastObjectByTarenaTests.xctest */,
+				D9AA9D091D506CDC00A9AEC6 /* LastObjectByTarenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9AA9CE71D506CDC00A9AEC6 /* LastObjectByTarena */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA9CEB1D506CDC00A9AEC6 /* AppDelegate.h */,
+				D9AA9CEC1D506CDC00A9AEC6 /* AppDelegate.m */,
+				D9AA9CEE1D506CDC00A9AEC6 /* ViewController.h */,
+				D9AA9CEF1D506CDC00A9AEC6 /* ViewController.m */,
+				D938572D1D50907F0092F8A0 /* viewModel */,
+				D9AA9D1B1D506DAE00A9AEC6 /* Util */,
+				D9AA9CF11D506CDC00A9AEC6 /* Main.storyboard */,
+				D9AA9CF41D506CDC00A9AEC6 /* Assets.xcassets */,
+				D9AA9CF61D506CDC00A9AEC6 /* LaunchScreen.storyboard */,
+				D9AA9CF91D506CDC00A9AEC6 /* Info.plist */,
+				D9AA9CE81D506CDC00A9AEC6 /* Supporting Files */,
+			);
+			path = LastObjectByTarena;
+			sourceTree = "<group>";
+		};
+		D9AA9CE81D506CDC00A9AEC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA9CE91D506CDC00A9AEC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9AA9D011D506CDC00A9AEC6 /* LastObjectByTarenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA9D021D506CDC00A9AEC6 /* LastObjectByTarenaTests.m */,
+				D9AA9D041D506CDC00A9AEC6 /* Info.plist */,
+			);
+			path = LastObjectByTarenaTests;
+			sourceTree = "<group>";
+		};
+		D9AA9D0C1D506CDC00A9AEC6 /* LastObjectByTarenaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA9D0D1D506CDC00A9AEC6 /* LastObjectByTarenaUITests.m */,
+				D9AA9D0F1D506CDC00A9AEC6 /* Info.plist */,
+			);
+			path = LastObjectByTarenaUITests;
+			sourceTree = "<group>";
+		};
+		D9AA9D1B1D506DAE00A9AEC6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D938572C1D5086250092F8A0 /* PrefixHeader.pch */,
+				D9AA9D281D5072A900A9AEC6 /* ScrollViewController.h */,
+				D9AA9D291D5072A900A9AEC6 /* ScrollViewController.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9AA9CE41D506CDC00A9AEC6 /* LastObjectByTarena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AA9D121D506CDC00A9AEC6 /* Build configuration list for PBXNativeTarget "LastObjectByTarena" */;
+			buildPhases = (
+				C700ADD080FF0F301A085B7A /* 📦 Check Pods Manifest.lock */,
+				D9AA9CE11D506CDC00A9AEC6 /* Sources */,
+				D9AA9CE21D506CDC00A9AEC6 /* Frameworks */,
+				D9AA9CE31D506CDC00A9AEC6 /* Resources */,
+				0F06F3294CF8169108701830 /* 📦 Embed Pods Frameworks */,
+				533577B2BAEA0B2FEAA7553A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LastObjectByTarena;
+			productName = LastObjectByTarena;
+			productReference = D9AA9CE51D506CDC00A9AEC6 /* LastObjectByTarena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9AA9CFD1D506CDC00A9AEC6 /* LastObjectByTarenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AA9D151D506CDC00A9AEC6 /* Build configuration list for PBXNativeTarget "LastObjectByTarenaTests" */;
+			buildPhases = (
+				D9AA9CFA1D506CDC00A9AEC6 /* Sources */,
+				D9AA9CFB1D506CDC00A9AEC6 /* Frameworks */,
+				D9AA9CFC1D506CDC00A9AEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9AA9D001D506CDC00A9AEC6 /* PBXTargetDependency */,
+			);
+			name = LastObjectByTarenaTests;
+			productName = LastObjectByTarenaTests;
+			productReference = D9AA9CFE1D506CDC00A9AEC6 /* LastObjectByTarenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9AA9D081D506CDC00A9AEC6 /* LastObjectByTarenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AA9D181D506CDC00A9AEC6 /* Build configuration list for PBXNativeTarget "LastObjectByTarenaUITests" */;
+			buildPhases = (
+				D9AA9D051D506CDC00A9AEC6 /* Sources */,
+				D9AA9D061D506CDC00A9AEC6 /* Frameworks */,
+				D9AA9D071D506CDC00A9AEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9AA9D0B1D506CDC00A9AEC6 /* PBXTargetDependency */,
+			);
+			name = LastObjectByTarenaUITests;
+			productName = LastObjectByTarenaUITests;
+			productReference = D9AA9D091D506CDC00A9AEC6 /* LastObjectByTarenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9AA9CDD1D506CDC00A9AEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = soft01;
+				TargetAttributes = {
+					D9AA9CE41D506CDC00A9AEC6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7KUV6VRTLP;
+					};
+					D9AA9CFD1D506CDC00A9AEC6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7KUV6VRTLP;
+						TestTargetID = D9AA9CE41D506CDC00A9AEC6;
+					};
+					D9AA9D081D506CDC00A9AEC6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7KUV6VRTLP;
+						TestTargetID = D9AA9CE41D506CDC00A9AEC6;
+					};
+				};
+			};
+			buildConfigurationList = D9AA9CE01D506CDC00A9AEC6 /* Build configuration list for PBXProject "LastObjectByTarena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9AA9CDC1D506CDC00A9AEC6;
+			productRefGroup = D9AA9CE61D506CDC00A9AEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9AA9CE41D506CDC00A9AEC6 /* LastObjectByTarena */,
+				D9AA9CFD1D506CDC00A9AEC6 /* LastObjectByTarenaTests */,
+				D9AA9D081D506CDC00A9AEC6 /* LastObjectByTarenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9AA9CE31D506CDC00A9AEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA9CF81D506CDC00A9AEC6 /* LaunchScreen.storyboard in Resources */,
+				D9AA9CF51D506CDC00A9AEC6 /* Assets.xcassets in Resources */,
+				D9AA9CF31D506CDC00A9AEC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AA9CFC1D506CDC00A9AEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AA9D071D506CDC00A9AEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F06F3294CF8169108701830 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LastObjectByTarena/Pods-LastObjectByTarena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		533577B2BAEA0B2FEAA7553A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LastObjectByTarena/Pods-LastObjectByTarena-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C700ADD080FF0F301A085B7A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9AA9CE11D506CDC00A9AEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA9CF01D506CDC00A9AEC6 /* ViewController.m in Sources */,
+				D9AA9CED1D506CDC00A9AEC6 /* AppDelegate.m in Sources */,
+				D93857301D5090B60092F8A0 /* ViewModel.m in Sources */,
+				D9AA9CEA1D506CDC00A9AEC6 /* main.m in Sources */,
+				D9AA9D2A1D5072A900A9AEC6 /* ScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AA9CFA1D506CDC00A9AEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA9D031D506CDC00A9AEC6 /* LastObjectByTarenaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AA9D051D506CDC00A9AEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA9D0E1D506CDC00A9AEC6 /* LastObjectByTarenaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9AA9D001D506CDC00A9AEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9AA9CE41D506CDC00A9AEC6 /* LastObjectByTarena */;
+			targetProxy = D9AA9CFF1D506CDC00A9AEC6 /* PBXContainerItemProxy */;
+		};
+		D9AA9D0B1D506CDC00A9AEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9AA9CE41D506CDC00A9AEC6 /* LastObjectByTarena */;
+			targetProxy = D9AA9D0A1D506CDC00A9AEC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9AA9CF11D506CDC00A9AEC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9AA9CF21D506CDC00A9AEC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9AA9CF61D506CDC00A9AEC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9AA9CF71D506CDC00A9AEC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9AA9D101D506CDC00A9AEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9AA9D111D506CDC00A9AEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9AA9D131D506CDC00A9AEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA46BCAFA564736AD4A0128 /* Pods-LastObjectByTarena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = LastObjectByTarena/PrefixHeader.pch;
+				INFOPLIST_FILE = LastObjectByTarena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tr.LastObjectByTarena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9AA9D141D506CDC00A9AEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2AB8A951DEA019C17B4868 /* Pods-LastObjectByTarena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = LastObjectByTarena/PrefixHeader.pch;
+				INFOPLIST_FILE = LastObjectByTarena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tr.LastObjectByTarena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9AA9D161D506CDC00A9AEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LastObjectByTarenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tr.LastObjectByTarenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LastObjectByTarena.app/LastObjectByTarena";
+			};
+			name = Debug;
+		};
+		D9AA9D171D506CDC00A9AEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LastObjectByTarenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tr.LastObjectByTarenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LastObjectByTarena.app/LastObjectByTarena";
+			};
+			name = Release;
+		};
+		D9AA9D191D506CDC00A9AEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LastObjectByTarenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tr.LastObjectByTarenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LastObjectByTarena;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D9AA9D1A1D506CDC00A9AEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LastObjectByTarenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tr.LastObjectByTarenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LastObjectByTarena;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9AA9CE01D506CDC00A9AEC6 /* Build configuration list for PBXProject "LastObjectByTarena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AA9D101D506CDC00A9AEC6 /* Debug */,
+				D9AA9D111D506CDC00A9AEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AA9D121D506CDC00A9AEC6 /* Build configuration list for PBXNativeTarget "LastObjectByTarena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AA9D131D506CDC00A9AEC6 /* Debug */,
+				D9AA9D141D506CDC00A9AEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AA9D151D506CDC00A9AEC6 /* Build configuration list for PBXNativeTarget "LastObjectByTarenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AA9D161D506CDC00A9AEC6 /* Debug */,
+				D9AA9D171D506CDC00A9AEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AA9D181D506CDC00A9AEC6 /* Build configuration list for PBXNativeTarget "LastObjectByTarenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AA9D191D506CDC00A9AEC6 /* Debug */,
+				D9AA9D1A1D506CDC00A9AEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9AA9CDD1D506CDC00A9AEC6 /* Project object */;
+}
